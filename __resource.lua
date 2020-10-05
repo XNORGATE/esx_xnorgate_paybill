@@ -11,6 +11,5 @@ server_scripts {
 }
 
 dependencies {
-	'es_extended',
-	'cron'
+	'es_extended'
 }
