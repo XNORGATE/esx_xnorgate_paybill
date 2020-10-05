@@ -8,7 +8,7 @@ DC:https://discord.gg/h35h5tP
 此為開源插件
 喜歡麻煩稱讚我 啾咪
 
-#依賴 Async cron
+#依賴 Async extended 
 
 安裝方法 
 直接resources.cfg 打上
