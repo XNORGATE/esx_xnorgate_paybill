@@ -14,4 +14,4 @@ DC:https://discord.gg/h35h5tP
 直接resources.cfg 打上
 start esx_xnorgate_paybill
 
-只要玩家在線上 並且身上有罰單 會強制繳費(扣銀行)
+只要玩家在線上 並且身上有帳單 會強制繳費(扣銀行)
