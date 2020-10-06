@@ -22,8 +22,8 @@ CreateThread(function()
 							MySQL.Sync.execute('DELETE FROM billing WHERE id = @id',
 							{
 								['@id'] = result[i].id
-							}
-						end)
+							})
+						end
 					end
 				end
 			end
