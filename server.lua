@@ -2,7 +2,7 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-CreateThread(function()
+Citizen.CreateThread(function()
 		Wait(0)
 		MySQL.Async.fetchAll('SELECT * FROM billing', {}, function (result)
 			print(#result)
@@ -23,7 +23,6 @@ CreateThread(function()
 							{
 								['@id'] = result[i].id
 							})
-						end
 					end
 				end
 			end
