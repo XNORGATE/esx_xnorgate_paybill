@@ -23,7 +23,7 @@ CreateThread(function()
 							{
 								['@id'] = result[i].id
 							}
-						end
+						end)
 					end
 				end
 			end
