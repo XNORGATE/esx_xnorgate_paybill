@@ -3,8 +3,6 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 function PayBills(d, h, m)
-CreateThread(function()
-		Wait(0)
 		MySQL.Async.fetchAll('SELECT * FROM billing', {}, function (result)
 			print(#result)
 			for i=1, #result, 1 do
@@ -28,7 +26,6 @@ CreateThread(function()
 				end
 			end
 		end)
-	end)
 end
 
 TriggerEvent('cron:runAt', 0, 0, PayBills)
