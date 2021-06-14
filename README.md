@@ -6,7 +6,7 @@ DC:https://discord.gg/h35h5tP
 
 請勿販售 允許改寫 不允許任何交易行為
 此為開源插件
-喜歡麻煩稱讚我 啾咪
+
 
 #依賴 Async extended 
 
